@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+body{
+  background: #F0F0F0;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -9,25 +12,32 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  display: inline-flex;
+  width: 100vw;
+  margin-top: 30px;
+  
+
+}
+
+.logo{
+  justify-content: flex-start;
+}
+
+.menubar{
+  justify-content: flex-start;
+  margin: auto;
+  
+  margin-left: 16px;
+
+  margin-top: 18px;
+  margin-bottom: 0px;
+  margin-right: 16px;
+
+}
+
+.box-wallet{
+  display: flex; 
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: auto;
+  margin-right: 0px;
 }

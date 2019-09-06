@@ -1,0 +1,18 @@
+#profile-box-container{
+    display: inline-flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    /* margin: auto; */
+}
+
+#profile-box-label{
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+/* #profile-wallet{
+    flex-direction: column;
+} */

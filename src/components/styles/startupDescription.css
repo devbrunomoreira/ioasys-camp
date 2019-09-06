@@ -1,0 +1,22 @@
+#startupBlock p{
+    font-size: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+
+#imgProjectItem {
+    height: 40px;
+    width: 40px;
+}
+#startupBlock h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#startupBlock{
+    padding: 10px;
+    padding-bottom: 14px;
+    
+
+}
